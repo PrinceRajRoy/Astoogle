@@ -50,7 +50,8 @@ class dateSearch extends React.Component {
                 }
             }
             count = 0;
-            for(let i=0; i < temp.length && count < 10; i++, count++) {
+            //for(let i=0; i < temp.length && count < 10; i++, count++) {
+            for(let i=0; i < temp.length ; i++) {
                 var d1 = Date.parse(temp[i]["Close Approach Date"]);
                 for(let j = i; j < temp.length; j++){
                     var d2 = Date.parse(temp[j]["Close Approach Date"]);
@@ -58,7 +59,7 @@ class dateSearch extends React.Component {
                         this.swap(temp, j, i)
                 }
             }
-            temp = temp.slice(0, Math.min(10, temp.length));
+            //temp = temp.slice(0, Math.min(10, temp.length));
             this.props.addData(temp);
             this.setState({dataReceived: true});
         });
