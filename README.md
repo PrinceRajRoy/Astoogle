@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-`A ReactJS App that fetches Near Earth Objects API data from NASA APIs and presents it to the user, you can check the live website here ` - [GitHub Pages](https://astoogle.web.app/)
+`A ReactJS App that fetches Near Earth Objects API data from NASA APIs and presents it to the user, you can check the live website here ` - [Astoogle](https://astoogle.web.app/)
 
 ### `npm init`
 
