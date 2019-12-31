@@ -1,0 +1,62 @@
+#nav ul {
+  list-style-type: none;
+  float: right;
+  padding: 25px;
+}
+
+#nav ul li {
+  display: inline;
+  padding: 0 15px 0 15px;
+  font-size: 1.3em;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #282c34;
+}
+
+#nav {
+  height: 150px;
+}
+
+#logo img {
+  height: 10em;
+  width: 10em;
+  position: absolute;
+  border-radius: 0 0 100% 0;
+}
+
+#mobile img {
+  height: 5em;
+  width: 5em;
+}
+
+#mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+    font-size: 0.5em;
+  }
+
+  .dropdown-menu {
+    margin-right: 50px;
+    font-size: 2em;
+  }
+
+  #nav ul li {
+    font-size: 1.3em;
+  }
+
+  #logo img {
+    height: 8em;
+    width: 8em;
+  }
+}

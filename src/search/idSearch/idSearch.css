@@ -1,0 +1,28 @@
+#idSearch {
+    min-height: 300px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+#load {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+button.btn.btn-success {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    button.btn.btn-success {
+        margin: 10px auto;
+    }
+
+  }
